@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+
 import {FirstViewBackgroundProps} from '../../../../utils/interfaces/interfaces'
 
 
