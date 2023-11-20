@@ -1,3 +1,4 @@
+import coupleImg from '../../../../../../assets/home/reviews/couple-review.jpg';
 import './ClientReviewBox.css';
 
 export const ClientReviewBox = () => {
@@ -8,7 +9,7 @@ export const ClientReviewBox = () => {
       </div>
       <div className="review-box-info-container">
         <div className="review-box-img-container">
-          <img src="./src/assets/home/reviews/couple-review.jpg" alt="couple-review" />
+          <img src={coupleImg} alt="couple-review" />
         </div>
         <div className="review-info-title">
           <p>Amaya and Axel</p>
