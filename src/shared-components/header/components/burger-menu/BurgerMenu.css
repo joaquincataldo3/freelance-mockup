@@ -1,0 +1,22 @@
+.bx-menu {
+    padding: 2%;
+    border-radius: 10px;
+    color: var(--light-white);
+}
+
+.burger-menu-container {
+    width: 15%;
+    height: 50px;
+    background-color: var(--light-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    font-size: 1.7rem;
+}
+
+@media(min-width: 768px) {
+    .burger-menu-container {
+        display: none;
+    }
+}

@@ -1,0 +1,50 @@
+
+
+.input-label-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+textarea {
+    color: black;
+}
+
+.form-input {
+    border: 1px solid var(--very-light-black);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.contact-us-button-container {
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+    border: 1px solid var(--very-light-black);
+    border-radius: 10px;
+    background-color: var(--light-black);
+    cursor: pointer;
+}
+
+.contact-us-form-btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--light-black);
+    color: var(--light-white);
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.form-error {
+    color: red;
+}
+
+@media(min-width: 1024px) {
+    .contact-us-form {
+       width: 35%;
+    }
+}

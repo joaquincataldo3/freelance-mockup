@@ -1,0 +1,50 @@
+.review-box-container{
+
+    height: max-content;
+    padding: 5% 7%;
+    background-color: white;
+    margin-top: 7%;
+
+}
+
+.review-box-text-container {
+    margin-bottom: 7%;
+  
+}
+
+.review-box-text {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.review-box-img-container {
+    width: 50px;
+    height: 50px;
+}
+
+.review-box-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.review-box-text {
+    text-align: justify;
+}
+
+.review-box-info-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.review-info-title {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.review-info-title p{
+    font-size: 0.875rem;
+}
+

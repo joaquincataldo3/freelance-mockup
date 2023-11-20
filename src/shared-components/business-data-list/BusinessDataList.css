@@ -1,0 +1,14 @@
+
+.business-data-list {
+    margin: 10% auto;
+}
+
+.business-data-list li {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.business-data-list-title {
+    text-transform: uppercase;
+    font-weight: 900;
+}

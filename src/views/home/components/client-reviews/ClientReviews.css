@@ -1,0 +1,43 @@
+
+.client-reviews-container {
+    height: 500px;
+    margin-top: 15%;
+    background-image: url('../../../../assets/home/reviews-background/business.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 3%;
+    padding: 2% 7%;
+}
+
+
+.reviews-title-container {
+    margin-top: 12%;
+}
+
+@media(min-width: 768px) {
+    .client-reviews-container {
+        display: flex;
+        padding: 2% 5%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .client-reviews-column {
+        width: 45%;
+    }
+
+    .reviews-title-container {
+        margin-top: 0!important;
+    }
+
+}
+
+
+@media(min-width: 1024px) {
+    
+.client-reviews-container {
+    margin-top: 5%;
+}
+    
+}

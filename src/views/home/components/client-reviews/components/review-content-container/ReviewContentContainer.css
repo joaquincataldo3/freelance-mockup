@@ -1,0 +1,21 @@
+
+
+.reviews-title-container {
+    margin-top: 12%;
+}
+
+.reviews-title-container h2 {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.8rem;
+    color: var(--light-white);
+    letter-spacing: 2px;
+    font-weight: 400!important;
+
+}
+
+.reviews-desc-container {
+    margin-top: 2%;
+    color: var(--light-white);
+    text-align:justify;
+    width: 100%;
+}

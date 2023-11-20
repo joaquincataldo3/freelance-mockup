@@ -1,0 +1,19 @@
+
+
+.services-title-container h2{
+    text-transform: uppercase;
+    
+}
+
+.home-main-container {
+    padding: 0!important;
+}
+
+@media(min-width: 768px) {
+    .all-content-container {
+        display: flex;
+    }
+
+    
+}
+

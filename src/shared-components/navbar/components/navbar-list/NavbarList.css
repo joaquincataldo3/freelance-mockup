@@ -1,0 +1,31 @@
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-li {
+    text-transform: uppercase;
+    margin: 3% 0;
+}
+
+.navbar-li a {
+    color: var(--light-black);
+}
+
+
+.navbar-li a:visited {
+    color: var(--light-black);
+}
+
+.navlink-active {
+    font-weight: 700;
+}
+
+@media (min-width: 1024px ) {
+    .navbar-li a {
+       font-size: 1.2rem; 
+    }
+}

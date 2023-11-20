@@ -1,0 +1,39 @@
+.about-info-container {
+    margin-top: 5%;
+}
+
+.about-info-container h2 {
+    text-transform: uppercase;
+    color: var(--light-black);
+}
+
+.about-info-p {
+    margin-top: 3%;
+}
+
+.first-info-p {
+    color: var(--gold);
+}
+
+@media(min-width: 1024px) {
+    
+ 
+    .about-info-container {
+        margin-top: 0;
+    }
+
+    .about-main-second-column {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        padding-left: 3%;
+    }
+
+    
+    .about-main-second-column-content-container {
+        height: 80%;
+        margin: auto 0;
+    }
+
+
+}

@@ -1,0 +1,35 @@
+
+.dots-container {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.dots-list {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 0.675rem;
+    color: var(--light-black);
+}
+
+.carousel-dot {
+    color: var(--light-black);
+}
+
+
+@media(min-width: 768px) {
+    .carousel-dot {
+        font-size: 1rem;
+    }
+
+    
+}
+
+@media(min-width: 1024px) {
+    .dots-container {
+        display: none;
+    }
+
+    
+}

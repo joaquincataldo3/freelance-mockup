@@ -1,0 +1,6 @@
+@media(min-width: 1024px) {
+    .contact-us-box-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
