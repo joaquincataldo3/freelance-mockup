@@ -1,4 +1,4 @@
-import './logoContainer.css'
+import './LogoContainer.css'
 
 export const LogoContainer = () => {
     return (
