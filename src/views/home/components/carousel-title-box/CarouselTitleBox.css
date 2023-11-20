@@ -16,6 +16,7 @@
     max-width: 315px;
     max-height: 330px;
     text-align: center;
+    opacity: 0.8;
 }
 
 .carousel-box-container h1 {
@@ -57,5 +58,26 @@
         padding: 2%;
         bottom: 35%;
         height: fit-content;
+    }
+}
+
+/* @media(min-width: 1200px) {
+    .carousel-box-container {
+        top: 50%;
+        left: 17%;
+    }
+} */
+
+@media(min-width: 1400px) {
+    .carousel-box-container {
+        top: 50%;
+        left: 17%;
+    }
+}
+
+@media(min-width: 1600px) {
+    .carousel-box-container {
+        top: 50%;
+        left: 13%;
     }
 }
