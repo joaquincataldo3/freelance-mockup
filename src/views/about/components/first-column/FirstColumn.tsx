@@ -1,3 +1,4 @@
+import aboutUsMainImg from '../../../../assets/home/auto-play-carousel-img/1.jpg';
 import './FirstColumn.css';
 
 export const FirstColumn = () => {
@@ -7,7 +8,7 @@ export const FirstColumn = () => {
                         <h1 className='main-title'>About us</h1>
                     </div>
                     <div className="about-main-img-container">
-                        <img src="./src/assets/home/auto-play-carousel-img/1.jpg" alt="" />
+                        <img src={aboutUsMainImg} alt="" />
                     </div>
                     <div className="subtitle-description-container">
                         <p className="subtitle-description">Lorem ipsum dolor sit</p>

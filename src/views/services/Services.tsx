@@ -7,7 +7,7 @@ export const Services = () => {
 
   return (
     <>
-      <FirstViewBackImage />
+      <FirstViewBackImage src="florero.png" />
       <main className="services-main">
       <h1 className="main-title">Services</h1>
         <ServicesList maxIndex={null} />

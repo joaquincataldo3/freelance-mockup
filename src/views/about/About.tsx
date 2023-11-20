@@ -7,7 +7,7 @@ export const About = () => {
 
     return (
         <div className='about-global-container'>
-            <FirstViewBackImage />
+            <FirstViewBackImage src='florero.png' />
             <main className='about-main-container'>
                 <FirstColumn />
                 <SecondColumn />

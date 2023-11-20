@@ -1,6 +1,7 @@
 import { ContactUsForm } from "./components/contact-us-form/ContactUsForm";
 import { FirstViewBackImage } from "../about/components/first-view-background-image/FirstViewBackImage";
 import { MapIFrame } from "./components/map-iframe/MapIFrame";
+
 import './ContactUs.css';
 
 export const ContactUs = () => {
@@ -11,7 +12,7 @@ export const ContactUs = () => {
 
   return (
     <>
-        <FirstViewBackImage  />
+        <FirstViewBackImage src={'florero.png'} />
         <main>
             <h1 className="main-title">Contact us</h1>
             <div className="contact-us-box-container">
