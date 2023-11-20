@@ -61,3 +61,7 @@ export interface DataListProps {
     titleSize: string,
     subtitleSize: string
 }
+
+export interface LogoProps {
+    color: string
+}

@@ -1,7 +1,11 @@
 import { useState } from "react";
-import { servicesImages } from "../../utils/constants/carouselImg";
 import './ServicesList.css'
-import { ServicesListProps } from "../../utils/interfaces/interfaces";
+import { ServicesImages, ServicesListProps } from "../../utils/interfaces/interfaces";
+import serviceImg1 from '../../assets/manual-carousel-img/services1.jpg';
+import serviceImg2 from '../../assets/manual-carousel-img/services2.jpg';
+import serviceImg3 from '../../assets/manual-carousel-img/services3.jpg';
+import serviceImg4 from '../../assets/manual-carousel-img/services4.jpg';
+
 
 export const ServicesList = (props: ServicesListProps) => {
 
@@ -15,6 +19,33 @@ export const ServicesList = (props: ServicesListProps) => {
   const clearHover = () => {
     setActiveIndex(null)
   }
+
+  const servicesImages: ServicesImages[] = [
+    {
+        id: 1,
+        src: serviceImg1,
+        subtitle: "weddings",
+        title: "wedding planner"
+    },
+    {
+        id: 2,
+        src: serviceImg2,
+        subtitle: "weddings",
+        title: "master of ceremonies"
+    },
+    {
+        id: 3,
+        src: serviceImg3,
+        subtitle: "weddings",
+        title: "special events"
+    },
+    {
+        id: 4,
+        src: serviceImg4,
+        subtitle: "weddings",
+        title: "destination wedding"
+    },
+]
 
   return (
     <>

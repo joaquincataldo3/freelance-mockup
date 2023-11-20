@@ -15,7 +15,7 @@ export const Navbar = () => {
                 <div className="close-navbar-icon-container">
                     <i className='bx bx-x close-navbar' onClick={handleNavbarClick}></i>
                 </div>
-                <LogoContainer />
+                <LogoContainer color='white'/>
                 <NavbarList />
             </div>
             <div className="second-column-navbar">
