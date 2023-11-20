@@ -5,11 +5,9 @@ import { SecondColumn } from './components/second-column/SecondColumn';
 
 export const About = () => {
 
-    const imgSrc = './src/assets/about/florero.png';
-
     return (
         <div className='about-global-container'>
-            <FirstViewBackImage src={imgSrc} />
+            <FirstViewBackImage />
             <main className='about-main-container'>
                 <FirstColumn />
                 <SecondColumn />

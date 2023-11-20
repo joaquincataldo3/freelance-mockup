@@ -1,12 +1,11 @@
-import {FirstViewBackgroundProps} from '../../../../utils/interfaces/interfaces'
-
-export const FirstViewBackImage = (props: FirstViewBackgroundProps) => {
-  const {src} = props;
+import backImage from '../../../../assets/back-images/florero.png';
+export const FirstViewBackImage = () => {
+  
   return (
     <div className="first-img-container">
         <div className="overlay"></div>
             <div className="about-first-img-container">
-                <img src={src} alt="" />
+              <img src={backImage} alt="" />
             </div>
     </div>
   )

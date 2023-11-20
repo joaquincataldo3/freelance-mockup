@@ -13,7 +13,6 @@ const HomeContextProvider = ({ children }: ContextProp) => {
     const [isNavbarOpen, setIsNavbarOpen] = useState<boolean>(false);
 
     const handleNavbarClick = () => {
-        console.log('click 2')
         setIsNavbarOpen(!isNavbarOpen);
     };
 
