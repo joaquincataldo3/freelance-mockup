@@ -14,9 +14,10 @@ export interface CarouselImgs {
     src: string
 }
 
-export interface ServicesImages extends CarouselImgs {
+export interface Service extends CarouselImgs {
     title: string,
-    subtitle: string
+    subtitle: string,
+    description: string
 }
 
 export interface DotsComponentProps {
@@ -64,4 +65,8 @@ export interface DataListProps {
 
 export interface LogoProps {
     color: string
+}
+
+export interface OneServiceProps {
+    service: Service
 }

@@ -5,9 +5,7 @@ import './ServicesSectionBox.css';
 export const ServicesSectionBox = () => {
     return (
         <section className="our-services-home-box">
-            <div className="services-title-container">
-                <h2>Our services</h2>
-            </div>
+
 
             {
                 window.innerWidth < 1024 ?

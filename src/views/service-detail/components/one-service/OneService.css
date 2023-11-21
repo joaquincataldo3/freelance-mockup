@@ -1,0 +1,27 @@
+.service-container h2, .service-container h1{
+    color: var(--light-black);
+}
+
+.service-container h2 {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.one-service-img-container {
+    width: 100%;
+    height: 400px;
+}
+
+.one-service-img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.one-service-description-container {
+    margin-top: 5%;
+}
+
+.one-service-description-container p {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 1.2rem;
+    color: var(--light-black);
+}

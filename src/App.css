@@ -18,6 +18,10 @@ body {
     background-color: var(--light-background);
 }
 
+a, a:visited {
+    color: var(--light-black);
+}
+
 ul {
     margin: 0;
     padding: 0;

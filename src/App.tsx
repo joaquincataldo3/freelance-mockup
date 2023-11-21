@@ -7,6 +7,7 @@ import { About } from "./views/about/About";
 import { Services } from "./views/services/Services";
 import { ContactUs } from "./views/contact-us/ContactUs";
 import { Footer } from "./shared-components/footer/Footer";
+import { ServiceDetail } from "./views/service-detail/ServiceDetail";
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/about" element={<About/>}/>
-        <Route path="/services" element={<Services/>}/>
+        <Route path="/services" element={<Services/>} />
+        <Route path="/services/:serviceId" element={<ServiceDetail />} />
         <Route path="/contact" element={<ContactUs />}/>
         <Route path="/" element={<Home/>}/>
       </Routes>

@@ -1,4 +1,4 @@
-import { FirstViewBackImage } from './components/first-view-background-image/FirstViewBackImage';
+import { FirstViewBackImage } from '../../shared-components/first-view-background-image/FirstViewBackImage';
 import './About.css';
 import { FirstColumn } from './components/first-column/FirstColumn';
 import { SecondColumn } from './components/second-column/SecondColumn';

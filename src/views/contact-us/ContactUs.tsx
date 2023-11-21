@@ -1,5 +1,5 @@
 import { ContactUsForm } from "./components/contact-us-form/ContactUsForm";
-import { FirstViewBackImage } from "../about/components/first-view-background-image/FirstViewBackImage";
+import { FirstViewBackImage } from "../../shared-components/first-view-background-image/FirstViewBackImage";
 import { MapIFrame } from "./components/map-iframe/MapIFrame";
 
 import './ContactUs.css';

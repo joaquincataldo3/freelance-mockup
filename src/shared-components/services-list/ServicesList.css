@@ -41,6 +41,12 @@
     border-radius: 10px;
 }
 
+
+.services-list-subtitle {
+    font-family: 'Petit Formal Script', cursive;
+    color: var(--light-black);
+}
+
 @media(min-width: 768px) {
 
     .service-list {
@@ -54,6 +60,11 @@
         margin: 5% auto;
     }
 
+    .services-list-title {
+        font-size: 2.3rem;
+    }
+    
+
 }
 
 @media(min-width: 1024px) {
@@ -64,11 +75,11 @@
     }
 
     .service-card {
-        width: 37%;
+        width: 35%;
         height: 400px;
         margin: 5% auto;
         position: relative;
-        max-width: 350px;
+        max-width: 330px;
     }
 
     .service-overlay {
@@ -96,6 +107,10 @@
 
     .over-text-container-active {
         opacity: 1;
+    }
+
+    .services-list-title {
+        font-size: 2.5rem;
     }
 
 
