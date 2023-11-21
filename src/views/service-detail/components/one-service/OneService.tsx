@@ -1,4 +1,4 @@
-import { OneServiceProps, Service } from '../../../../utils/interfaces/interfaces';
+import { OneServiceProps } from '../../../../utils/interfaces/interfaces';
 import { PackageDescription } from '../package-description/PackageDescription';
 import './OneService.css';
 

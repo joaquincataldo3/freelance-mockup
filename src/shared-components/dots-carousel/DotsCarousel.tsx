@@ -1,5 +1,5 @@
 
-import { DotsComponentProps, CarouselImgs } from '../../utils/interfaces/interfaces';
+import { DotsComponentProps } from '../../utils/interfaces/interfaces';
 import './DotsCarousel.css';
 
 export const DotsCarousel = (props: DotsComponentProps) => {
