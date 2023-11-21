@@ -1,4 +1,5 @@
 import { OneServiceProps, Service } from '../../../../utils/interfaces/interfaces';
+import { PackageDescription } from '../package-description/PackageDescription';
 import './OneService.css';
 
 export const OneService = (props: OneServiceProps) => {
@@ -7,15 +8,19 @@ export const OneService = (props: OneServiceProps) => {
   const {title, subtitle, description, src} = service;
   
   return (
-    <main className='service-container'>
+    <div className='service-container'>
       <h2>{subtitle} </h2>
       <h1>{title}</h1>
+      <div className="oneservice-column-container">
       <div className="one-service-img-container">
         <img src={src} alt="" />
       </div>
       <div className="one-service-description-container">
         <p>{description}</p>
+        <PackageDescription />
       </div>
-    </main>
+      </div>
+     
+    </div>
   )
 }

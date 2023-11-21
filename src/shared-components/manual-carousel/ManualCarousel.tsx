@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { DotsCarousel } from "./components/dots-carousel/DotsCarousel";
+import { DotsCarousel } from "../dots-carousel/DotsCarousel";
 import '../../views/home/components/auto-play-carousel/Carousel.css';
 import './ManualCarousel.css'
 import { services } from "../../utils/constants/services";
@@ -48,7 +48,7 @@ export const ManualCarousel = () => {
 
             </div>
 
-            <DotsCarousel images={services} handleClickOnDot={handleClickOnDot} currentImage={currentImage} />
+            <DotsCarousel items={services} handleClickOnDot={handleClickOnDot} currentImage={currentImage} />
         </div>
     )
 }

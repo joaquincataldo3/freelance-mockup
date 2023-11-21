@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import { OneService } from "./components/one-service/OneService";
 import { services } from "../../utils/constants/services";
 import { FirstViewBackImage } from "../../shared-components/first-view-background-image/FirstViewBackImage";
+import { PackagesCarousel } from "./components/packages-carousel/PackagesCarousel";
 
 
 export const ServiceDetail = () => {
@@ -18,7 +19,13 @@ export const ServiceDetail = () => {
     <>
         <FirstViewBackImage src="florero.png" />
         {
-            selectedService && <OneService service={selectedService} />
+            selectedService && 
+            <main className="main-service-container">
+             <OneService service={selectedService} />
+
+            <PackagesCarousel />
+            </main>
+           
         }
         
     </>

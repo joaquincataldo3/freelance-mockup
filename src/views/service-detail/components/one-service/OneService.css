@@ -21,7 +21,37 @@
 }
 
 .one-service-description-container p {
-    font-family: 'Petit Formal Script', cursive;
+    font-style: italic;
     font-size: 1.2rem;
     color: var(--light-black);
+}
+
+@media(min-width: 768px) {
+    .oneservice-column-container {
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .one-service-img-container {
+        width: 55%;
+    }
+
+    .one-service-description-container {
+        width: 45%;
+        margin-top:  0;
+        padding-left: 2%;
+    }
+}
+
+@media(min-width: 768px) {
+
+
+    .one-service-img-container {
+        width: 50%;
+    }
+
+    .one-service-description-container {
+        width: 50%;
+    
+    }
 }

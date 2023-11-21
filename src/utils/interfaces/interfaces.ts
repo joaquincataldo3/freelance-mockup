@@ -21,7 +21,7 @@ export interface Service extends CarouselImgs {
 }
 
 export interface DotsComponentProps {
-    images: CarouselImgs[],
+    items: CarouselImgs[] | PackagePlans[],
     handleClickOnDot: () => void,
     currentImage: number
 }
@@ -69,4 +69,16 @@ export interface LogoProps {
 
 export interface OneServiceProps {
     service: Service
+}
+
+export interface PackageList {
+    id: number,
+    description: string
+}
+
+export interface PackagePlans {
+    id: number,
+    name: string,
+    price: number,
+    includes: PackageList[]
 }
