@@ -33,17 +33,17 @@
     
 }
 
-.prev-slide {
+.package-prev-slide {
     transform: translateX(-100%);
     z-index: 2;
 }
 
-.active {
+.package-active {
     transform: translateX(0);
     z-index: 5;
 }
 
-.next-slide {
+.package-next-slide {
     transform: translateX(100%);
     z-index: 1;
 }
@@ -97,6 +97,10 @@
 
 @media(min-width: 1024px) {
 
+    .package-carousel-container {
+        background-color: transparent;
+    }
+
     .package-carousel-list {
         display: flex;
         justify-content: space-between;
@@ -114,17 +118,17 @@
         width: 31%;
     }
 
-    .prev-slide {
+    .package-prev-slide {
         transform: translateX(0);
         z-index: 1;
     }
     
-    .active {
+    .package-active {
         transform: translateX(0);
         z-index: 1;
     }
     
-    .next-slide {
+    .package-next-slide {
         transform: translateX(0);
         z-index: 1;
     }

@@ -20,10 +20,10 @@ export const PackagesCarousel = () => {
                             packagePlans.map((pack, index) => {
                                 return <li key={index} className={`package-carousel-li
                         ${currentIndex === index && window.innerWidth < 1024
-                                        ? 'active'
+                                        ? 'package-active'
                                         : index === currentIndex - 1 || (currentIndex === 0 && index === packageList.length - 1)
-                                            ? 'prev-slide'
-                                            : 'next-slide'
+                                            ? 'package-prev-slide'
+                                            : 'package-next-slide'
                                     }
                         }`}>
                                     <div className="pack-title">

@@ -3,6 +3,7 @@ import { OneService } from "./components/one-service/OneService";
 import { services } from "../../utils/constants/services";
 import { FirstViewBackImage } from "../../shared-components/first-view-background-image/FirstViewBackImage";
 import { PackagesCarousel } from "./components/packages-carousel/PackagesCarousel";
+import './ServiceDetail.css';
 
 
 export const ServiceDetail = () => {
@@ -21,9 +22,11 @@ export const ServiceDetail = () => {
         {
             selectedService && 
             <main className="main-service-container">
-             <OneService service={selectedService} />
+              <div className="service-content-container">
+                <OneService service={selectedService} />
+                <PackagesCarousel />
+              </div>
 
-            <PackagesCarousel />
             </main>
            
         }
